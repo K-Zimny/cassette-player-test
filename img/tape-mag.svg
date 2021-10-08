@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="727.458" height="115.873" viewBox="0 0 727.458 115.873">
+  <g id="Group_27" data-name="Group 27" transform="translate(-570.329 -854.512)">
+    <g id="Path_1038" data-name="Path 1038" transform="translate(489.126 854.512)" fill="#4b4b48">
+      <path d="M 807.6954345703125 115.3725509643555 L 82.04962921142578 115.3725509643555 L 145.3743743896484 0.5000065565109253 L 726.5756225585938 0.5000065565109253 L 807.6954345703125 115.3725509643555 Z" stroke="none"/>
+      <path d="M 145.6696166992188 1.000007629394531 L 82.8961181640625 114.8725509643555 L 806.7303466796875 114.8725509643555 L 726.3167114257812 1.000007629394531 L 145.6696166992188 1.000007629394531 M 145.0790405273438 7.62939453125e-06 L 726.8346557617188 7.62939453125e-06 L 808.66064453125 115.8725509643555 L 81.20306396484375 115.8725509643555 L 145.0790405273438 7.62939453125e-06 Z" stroke="none" fill="#ffeb95"/>
+    </g>
+    <g id="Component_11_173" data-name="Component 11 – 173" transform="translate(924.368 877.759) rotate(-83)">
+      <circle id="Ellipse_35" data-name="Ellipse 35" cx="7.5" cy="7.5" r="7.5" fill="#ffeb95"/>
+      <line id="Line_8" data-name="Line 8" x2="12.38" y2="10.57" transform="translate(1.836 2.421)" fill="none" stroke="#4b4b48" stroke-width="3"/>
+    </g>
+    <g id="Ellipse_36" data-name="Ellipse 36" transform="translate(669 903)" fill="#ffeb95" stroke="#707070" stroke-width="1">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14.5" fill="none"/>
+    </g>
+    <g id="Ellipse_37" data-name="Ellipse 37" transform="translate(1164 903)" fill="#ffeb95" stroke="#707070" stroke-width="1">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14.5" fill="none"/>
+    </g>
+    <g id="Rectangle_58" data-name="Rectangle 58" transform="translate(834 888)" fill="#ffeb95" stroke="#707070" stroke-width="1">
+      <rect width="30" height="30" rx="7" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" rx="6.5" fill="none"/>
+    </g>
+    <g id="Rectangle_59" data-name="Rectangle 59" transform="translate(999 888)" fill="#ffeb95" stroke="#707070" stroke-width="1">
+      <rect width="30" height="30" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" rx="7.5" fill="none"/>
+    </g>
+  </g>
+</svg>

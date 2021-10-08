@@ -92,22 +92,239 @@ img {
   margin: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffeb95;
+  background: rgb(104, 136, 104);
+}
+
+.outer-container {
+  position: relative;
+  max-width: 1200px;
+  height: 500px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2e2e2e;
+  padding: 75px 0;
+  border: 3px solid #ffeb95;
+  box-shadow: 30px 30px 0 #2e2e2e;
+}
+
 .cassette {
   max-width: 1920px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  height: 100%;
 }
 
 .cassette .content-container {
-  display: flex;
-  flex-flow: column nowrap;
+  position: relative;
+  z-index: 0;
+  /* display: flex;
+  flex-flow: column nowrap; */
+  background: #2e2e2e;
+  /* border: 3px solid #ffeb95; */
+  padding: 100px 75px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .cassette .container-flex-box {
   display: flex;
   flex-flow: row nowrap;
+  gap: 50px;
 }
+
+.cassette .overflow-container {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 100%;
+  width: 100%;
+}
+
+.cassette .overflow-container > .container-flex-box {
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2e2e2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffeb95;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffeb95;
+}
+
+.container-text {
+  margin: 0 10px 0 0;
+}
+
+.container-text > p {
+  margin: 0;
+}
+
+/* mag */
+
+.tape-mag {
+  position: absolute;
+  /* content: url("../img/tape-mag.svg"); */
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 70px;
+}
+
+.tape-mag svg {
+  height: 100%;
+}
+
+/* screw */
+
+.screw {
+  position: absolute;
+}
+
+.screw-1 {
+  top: 5px;
+  left: 5px;
+}
+
+.screw-2 {
+  top: 5px;
+  right: 5px;
+}
+
+.screw-3 {
+  bottom: 5px;
+  left: 5px;
+}
+
+.screw-4 {
+  bottom: 5px;
+  right: 5px;
+}
+
+/* shells */
+
+.shell {
+  position: absolute;
+  content: "";
+}
+
+.shell-1 {
+  inset: 0;
+  background-color: #2e2e2e;
+  z-index: -1;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 90%,
+    95% 100%,
+    5% 100%,
+    0 90%,
+    0 0
+  );
+}
+
+.shell-2 {
+  inset: -3px;
+  background-color: #ffeb95;
+  z-index: -2;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 90%,
+    95% 100%,
+    5% 100%,
+    0 90%,
+    0 0
+  );
+}
+
+.shell-3 {
+  inset: -6px;
+  background-color: #2e2e2e;
+  z-index: -3;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 90%,
+    95% 100%,
+    5% 100%,
+    0 90%,
+    0 0
+  );
+}
+
+.shell-4 {
+  inset: -9px;
+  background-color: #ffeb95;
+  z-index: -4;
+  clip-path: polygon(
+    20% 0%,
+    80% 0%,
+    100% 0,
+    100% 90%,
+    95% 100%,
+    5% 100%,
+    0 90%,
+    0 0
+  );
+}
+
+/* 3d triangle */
+
+.three-d-triangle-bl {
+  position: absolute;
+  content: "";
+  bottom: -33px;
+  left: -3px;
+  background: #4b4b48;
+  clip-path: polygon(100% 100%, 0 0, 100% 0);
+  height: 30px;
+  width: 30px;
+}
+
+.three-d-triangle-tr {
+  position: absolute;
+  content: "";
+  top: -3px;
+  right: -33px;
+  background: #4b4b48;
+  clip-path: polygon(100% 100%, 0 0, 100% 0);
+  height: 30px;
+  width: 30px;
+  transform: rotate(180deg);
+}
+
+/* 3d line */
+
+.three-d-line-br {
+  position: absolute;
+  content: "";
+  bottom: -33px;
+  right: -33px;
+  background: #ffeb95;
+  clip-path: polygon(10% 0, 0 10%, 100% 100%);
+  height: 33px;
+  width: 33px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
