@@ -325,6 +325,14 @@ body {
   width: 33px;
 }
 
+/* Media Query */
+
+/* @media only screen and (max-width: 1200px) {
+  .outer-container {
+    transform: rotate(90deg);
+  }
+} */
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
